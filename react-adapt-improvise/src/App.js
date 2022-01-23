@@ -1,17 +1,19 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-import AboutMe from './components/AboutMe';
-import ContactForm from './components/Contact';
+import { Router ,Routes ,Route } from 'react-router-dom';
+import AboutMe from './pages/AboutMe';
+import ContactForm from './pages/Contact';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <main>
-        <AboutMe></AboutMe>     
-        <ContactForm></ContactForm>
-         </main>
-
-    </div>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path='/AboutMe' element={AboutMe} />
+            <Route path='/ContactForm' element={ContactForm} />
+          </Routes>
+        </Router>
   );
 }
 
