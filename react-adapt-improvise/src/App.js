@@ -1,15 +1,25 @@
 import React from "react";
 import './App.css';
-import AboutMe from './components/pages/AboutMe'
+import AboutMe from './Pages/AboutMe';
+import ContactForm from './Pages/Contact';
+import Home from './Pages/Home'
 import Navibar from "./components/Navbar/Navbar";
-import {Route, BrowserRouter as Router} from "react-router-dom";
-function App() {
+import Portfolio from "./Pages/Portfolio";
+import Resume from "./Pages/Resume";
+import { BrowserRouter, Routes ,Route } from 'react-router-dom';
+export default function App() {
   return (
     <div className="App">
         <Navibar></Navibar>
-        <h1>Hello</h1>
-        </div>
+    <BrowserRouter>
+        <Routes>
+        <Route path="/" element={Home()}/>
+        <Route path="/AboutMe" element={AboutMe()}/>
+        <Route path="/Portfolio" element={Portfolio()}/>
+        <Route path="/ContactForm" element={ContactForm()}/>
+        <Route path="/Resume" element={Resume()}/>
+        </Routes>
+    </BrowserRouter>
+    </div>
   );
 }
-
-export default App;
