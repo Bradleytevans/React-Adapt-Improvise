@@ -4,12 +4,13 @@ function AboutMe() {
     <section className="my-5">
       <h1 id="aboutMe">About Me</h1>
       <div className="my-2">
+        <h1>
+          Hello! Get to know more about me!
+        </h1>
         <p>
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus
-          ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam
-          maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean
-          sollicitudin nulla at nisi ornare, nec suscipit massa eleifend.
+          My name is Brad Evans, and I am a full stack web developer who is currently earning a certification from UCF for Full Stack Web Development.
+          <br></br>
+        
         </p>
       </div>
     </section>
