@@ -6,7 +6,9 @@ import Home from './Pages/Home'
 import Navibar from "./components/Navbar/Navbar";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
+import Footer from "./components/Navbar/Footer"
 import { BrowserRouter, Routes ,Route } from 'react-router-dom';
+
 export default function App() {
   return (
     <div className="App">
@@ -20,6 +22,7 @@ export default function App() {
         <Route path="/Resume" element={Resume()}/>
         </Routes>
     </BrowserRouter>
+      <Footer></Footer>
     </div>
   );
 }
