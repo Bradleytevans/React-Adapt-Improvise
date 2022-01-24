@@ -1,18 +1,14 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-import AboutMe from './components/AboutMe';
-
+import AboutMe from './components/pages/AboutMe'
+import Navibar from "./components/Navbar/Navbar";
+import {Route, BrowserRouter as Router} from "react-router-dom";
 function App() {
-  const [categories] = useState([
-    {
-      name
-    }
-  ])
   return (
     <div className="App">
-      <h1>Hello World!</h1>
-      <AboutMe></AboutMe>
-    </div>
+        <Navibar></Navibar>
+        <h1>Hello</h1>
+        </div>
   );
 }
 
