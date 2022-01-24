@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import ParticlesBg from "particles-bg";
 export default function Resume() {
   return (
     <Container>
@@ -11,6 +12,7 @@ export default function Resume() {
         </h1>
       </div>
     </section>
+    <ParticlesBg type="cobweb" color="#FFA500" num={30} bg={true} />
     </Container>
   );
 }
