@@ -51,7 +51,7 @@ a {
 .text {
   font-size: 20px;
   text-align: center;
-  width: 80%;
+  width: 40%;
   margin: 0px auto;
 }
 
@@ -62,3 +62,13 @@ a {
 #mouse_over:hover {
   opacity: 1;
 }
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px auto;
+  font-size: x-large;
+}
+/* .navb .current{
+  color: blue;
+  background-color: blue;
+} */
