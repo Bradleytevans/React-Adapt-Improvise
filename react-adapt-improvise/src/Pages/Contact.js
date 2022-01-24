@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { Card, Container } from 'react-bootstrap';
+import ParticlesBg from 'particles-bg';
 import { validateEmail } from '../utils/helpers';
 
 export default function ContactForm() {
@@ -37,29 +38,38 @@ export default function ContactForm() {
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+    <Container>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+
+      <h1 data-testid="h1tag" className='text-white'>Contact me</h1>
+      <Container className='contact'>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <Card className="name bg-dark text-white">
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
+          <input type="text" name="name" size="50" defaultValue={name} onBlur={handleChange} />
+        </Card>
+        <Card className='name bg-dark text-white'>
           <label htmlFor="email">Email address:</label>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
+        </Card>
+        <Card className='name bg-dark text-white'>
           <label htmlFor="message">Message:</label>
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
+        </Card>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" type="submit" className='bg-dark text-white'>Submit</button>
       </form>
-    </section>
+      </Container>
+      <ParticlesBg type="cobweb" color="#00FF00" num={30} bg={true} />
+    </Container>
   );
 }
 
