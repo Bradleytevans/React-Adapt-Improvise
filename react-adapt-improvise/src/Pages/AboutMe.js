@@ -1,6 +1,8 @@
 import React from "react";
-function AboutMe() {
+import { Container } from "react-bootstrap";
+export default function AboutMe() {
   return (
+    <Container>
     <section className="my-5">
       <h1 id="aboutMe">About Me</h1>
       <div className="my-2">
@@ -14,8 +16,8 @@ function AboutMe() {
         </p>
       </div>
     </section>
+    </Container>
   );
 }
 
-export default AboutMe;
 
