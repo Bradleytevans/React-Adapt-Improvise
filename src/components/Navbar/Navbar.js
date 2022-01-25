@@ -28,7 +28,6 @@ export default function Navibar() {
               <NavLink activeClassName="active" to="/Resume">Resume</NavLink>
             </Nav>
           </Navbar.Collapse>
-
           <Routes>
             <Route path="/" element={AboutMe()} />
             <Route path="/React-Adapt-Improvise" element={AboutMe()} />

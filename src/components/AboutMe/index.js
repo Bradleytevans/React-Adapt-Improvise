@@ -4,10 +4,6 @@ import ParticlesBg from "particles-bg";
 export default function AboutMe() {
   return (
     <div>
-      <br></br>
-      <br></br>
-      <br></br>
-
       <div className="my-5">
         <h1 id="aboutMe" className="text-white">
           About Me
