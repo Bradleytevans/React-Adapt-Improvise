@@ -18,7 +18,7 @@ export default function Navibar() {
     >
       <Container>
         <BrowserRouter>
-          <NavLink activeClassName="active" to="/React-Adapt-Improvise">Bradley Evans</NavLink>
+          <NavLink activeClassName="active" to="/">Bradley Evans</NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -30,6 +30,7 @@ export default function Navibar() {
           </Navbar.Collapse>
 
           <Routes>
+            <Route path="/" element={AboutMe()} />
             <Route path="/React-Adapt-Improvise" element={AboutMe()} />
             <Route path="/AboutMe" element={AboutMe()} />
             <Route path="/Projects" element={Portfolio()} />
