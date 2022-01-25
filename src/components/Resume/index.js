@@ -22,7 +22,7 @@ import resume from "../../resumepdf/Bradleytevans.pdf";
 export default function Resume() {
   return (
     <Container>
-      <section className="my-5">
+      <section>
         <h1 id="aboutMe">Resume</h1>
         <div className="my-2 text-white">
           <h1>Resume</h1>

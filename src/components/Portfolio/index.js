@@ -11,8 +11,8 @@ import { VscGithub } from "react-icons/vsc";
 
 export default function Portfolio() {
   return (
-    <Container>
-      <section className="my-5">
+    <Container className="overflow">
+      <section>
         <h1 id="projects" className="text-white">Projects</h1>
         <div className="my-2">
             <br></br>
