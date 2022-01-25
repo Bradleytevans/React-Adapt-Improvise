@@ -6,7 +6,7 @@ export default function Navibar() {
   return (
       <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark pills" fixed="top" className="navb">
         <Container>
-          <Navbar.Brand href="/">Bradley Evans</Navbar.Brand>
+          <Navbar.Brand href="/React-Adapt-Improvise">Bradley Evans</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

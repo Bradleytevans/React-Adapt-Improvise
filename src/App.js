@@ -14,7 +14,7 @@ export default function App() {
         <Navibar></Navibar>
     <BrowserRouter>
         <Routes>
-        <Route path="/" element={AboutMe()}/>
+        <Route path="/React-Adapt-Improvise" element={AboutMe()}/>
         <Route path="/AboutMe" element={AboutMe()}/>
         <Route path="/Projects" element={Portfolio()}/>
         <Route path="/ContactForm" element={ContactForm()}/>
