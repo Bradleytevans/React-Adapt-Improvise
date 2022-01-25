@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Card, Col, Row } from "react-bootstrap";
-import shreddit from "../images/shreddit.png";
-import horiseon from "../images/horiseon.jpg";
-import ipa from "../images/APIs-For-IPAs.png";
-import notes from "../images/notes.png";
-import runbuddy from "../images/Runbuddy.jpg";
-import code from "../images/code-quiz.png";
+import shreddit from "../../images/shreddit.png";
+import horiseon from "../../images/horiseon.jpg";
+import ipa from "../../images/APIs-For-IPAs.png";
+import notes from "../../images/notes.png";
+import runbuddy from "../../images/Runbuddy.jpg";
+import code from "../../images/code-quiz.png";
 import ParticlesBg from 'particles-bg';
 import { VscGithub } from "react-icons/vsc";
 

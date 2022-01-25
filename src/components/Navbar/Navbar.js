@@ -18,14 +18,14 @@ export default function Navibar() {
     >
       <Container>
         <BrowserRouter>
-          <NavLink to="/React-Adapt-Improvise">Bradley Evans</NavLink>
+          <NavLink activeClassName="active" to="/React-Adapt-Improvise">Bradley Evans</NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <NavLink to="/AboutMe">About Me</NavLink>
-              <NavLink to="/Projects">Projects</NavLink>
-              <NavLink to="/ContactForm">ContactForm</NavLink>
-              <NavLink to="/Resume">Resume</NavLink>
+              <NavLink activeClassName="active" to="/AboutMe">About Me</NavLink>
+              <NavLink activeClassName="active" to="/Projects">Projects</NavLink>
+              <NavLink activeClassName="active" to="/ContactForm">ContactForm</NavLink>
+              <NavLink activeClassName="active" to="/Resume">Resume</NavLink>
             </Nav>
           </Navbar.Collapse>
 

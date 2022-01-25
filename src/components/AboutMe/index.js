@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/Profile-pic.png";
+import profile from "../../images/Profile-pic.png";
 import ParticlesBg from "particles-bg";
 export default function AboutMe() {
   return (
