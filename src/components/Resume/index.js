@@ -17,7 +17,7 @@ import { SiMongodb } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { AiOutlineApi } from "react-icons/ai";
 import { SiGraphql } from "react-icons/si";
-import resume from "../resumepdf/Bradleytevans.pdf";
+import resume from "../../resumepdf/Bradleytevans.pdf";
 
 export default function Resume() {
   return (

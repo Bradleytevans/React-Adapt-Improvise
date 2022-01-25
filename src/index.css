@@ -68,7 +68,6 @@ ul {
   margin: 0px auto;
   font-size: x-large;
 }
-/* .navb .current{
-  color: blue;
-  background-color: blue;
-} */
+.active {
+  color: red;
+}
