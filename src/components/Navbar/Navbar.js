@@ -1,7 +1,11 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
-
+import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
+import AboutMe from "../AboutMe";
+import ContactForm from "../Contact";
+import Portfolio from "../Portfolio";
+import Resume from "../Resume";
 export default function Navibar() {
   return (
     <Navbar
@@ -13,24 +17,26 @@ export default function Navibar() {
       className="navb"
     >
       <Container>
-        <Navbar.Brand href="/">Bradley Evans</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Item>
-              <Nav.Link href="/AboutMe">About Me</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="/Projects">Projects</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="/ContactForm">Contact</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="/Resume">Resume</Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </Navbar.Collapse>
+        <BrowserRouter>
+          <NavLink to="/React-Adapt-Improvise">Bradley Evans</NavLink>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <NavLink to="/AboutMe">About Me</NavLink>
+              <NavLink to="/Projects">Projects</NavLink>
+              <NavLink to="/ContactForm">ContactForm</NavLink>
+              <NavLink to="/Resume">Resume</NavLink>
+            </Nav>
+          </Navbar.Collapse>
+
+          <Routes>
+            <Route path="/React-Adapt-Improvise" element={AboutMe()} />
+            <Route path="/AboutMe" element={AboutMe()} />
+            <Route path="/Projects" element={Portfolio()} />
+            <Route path="/ContactForm" element={ContactForm()} />
+            <Route path="/Resume" element={Resume()} />
+          </Routes>
+        </BrowserRouter>
       </Container>
     </Navbar>
   );

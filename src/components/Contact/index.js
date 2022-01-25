@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, Container } from 'react-bootstrap';
 import ParticlesBg from 'particles-bg';
-import { validateEmail } from '../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 export default function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
