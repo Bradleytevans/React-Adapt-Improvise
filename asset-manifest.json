@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/React-Adapt-Improvise/static/css/main.ccaa1dab.css",
-    "main.js": "/React-Adapt-Improvise/static/js/main.dd388efa.js",
+    "main.js": "/React-Adapt-Improvise/static/js/main.9bd595ec.js",
     "static/js/787.a5edcd29.chunk.js": "/React-Adapt-Improvise/static/js/787.a5edcd29.chunk.js",
     "static/media/APIs-For-IPAs.png": "/React-Adapt-Improvise/static/media/APIs-For-IPAs.4d8cc01a3ec9d0454fb5.png",
+    "static/media/landingBG.jpg": "/React-Adapt-Improvise/static/media/landingBG.6ef6db913df93a631506.jpg",
     "static/media/code-quiz.png": "/React-Adapt-Improvise/static/media/code-quiz.2c1669b21f33c22e3c43.png",
     "static/media/horiseon.jpg": "/React-Adapt-Improvise/static/media/horiseon.a96ec7e2a01ac29e7487.jpg",
     "static/media/Runbuddy.jpg": "/React-Adapt-Improvise/static/media/Runbuddy.1103be1c225785ce9e20.jpg",
@@ -13,11 +14,11 @@
     "static/media/Bradleytevans.pdf": "/React-Adapt-Improvise/static/media/Bradleytevans.849a3e7705a930e12a7b.pdf",
     "index.html": "/React-Adapt-Improvise/index.html",
     "main.ccaa1dab.css.map": "/React-Adapt-Improvise/static/css/main.ccaa1dab.css.map",
-    "main.dd388efa.js.map": "/React-Adapt-Improvise/static/js/main.dd388efa.js.map",
+    "main.9bd595ec.js.map": "/React-Adapt-Improvise/static/js/main.9bd595ec.js.map",
     "787.a5edcd29.chunk.js.map": "/React-Adapt-Improvise/static/js/787.a5edcd29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccaa1dab.css",
-    "static/js/main.dd388efa.js"
+    "static/js/main.9bd595ec.js"
   ]
 }
