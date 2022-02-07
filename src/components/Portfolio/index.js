@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Card, Col, Row } from "react-bootstrap";
 import shreddit from "../../images/shreddit.png";
 import horiseon from "../../images/horiseon.jpg";
+import horiseon from "../../images/horiseon.jpg";
+import cultural from "../../images/landingBG.jpg"
 import ipa from "../../images/APIs-For-IPAs.png";
 import notes from "../../images/notes.png";
 import runbuddy from "../../images/Runbuddy.jpg";
@@ -18,6 +20,18 @@ export default function Portfolio() {
             <br></br>
           <Container className="con1 h3">
             <Row>
+            <Col>
+                <Card className="bg-dark text-white">
+                  <Card.Img
+                    src={cultural}
+                    alt="Card image"
+                  />
+                  <Card.ImgOverlay id="mouse_over">
+                    <Card.Title><a href="https://cultural-eats.herokuapp.com" target="_blank" rel="noreferrer" className="text-white">Cultural Eats</a> <a href="https://github.com/JulioRios15/Cultural-eatsdasa" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
+                    <Card.Text>Fullstack</Card.Text>
+                  </Card.ImgOverlay>
+                </Card>
+              </Col>
               <Col>
                 <Card className="bg-dark text-white">
                   <Card.Img
