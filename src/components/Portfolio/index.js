@@ -26,7 +26,7 @@ export default function Portfolio() {
                     alt="Card image"
                   />
                   <Card.ImgOverlay id="mouse_over">
-                    <Card.Title><a href="https://cultural-eats.herokuapp.com" target="_blank" rel="noreferrer" className="text-white">Cultural Eats</a> <a href="https://github.com/JulioRios15/Cultural-eatsdasa" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
+                    <Card.Title><a href="https://cultural-eats.herokuapp.com" target="_blank" rel="noreferrer" className="text-white">Cultural Eats</a> <a href="https://github.com/JulioRios15/Cultural-eats" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
                     <Card.Text>Fullstack</Card.Text>
                   </Card.ImgOverlay>
                 </Card>
