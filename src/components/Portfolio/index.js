@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Card, Col, Row } from "react-bootstrap";
 import shreddit from "../../images/shreddit.png";
 import horiseon from "../../images/horiseon.jpg";
-import horiseon from "../../images/horiseon.jpg";
 import cultural from "../../images/landingBG.jpg"
 import ipa from "../../images/APIs-For-IPAs.png";
 import notes from "../../images/notes.png";
