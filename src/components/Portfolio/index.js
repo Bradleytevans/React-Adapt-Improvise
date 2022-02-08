@@ -43,18 +43,6 @@ export default function Portfolio() {
                   </Card.ImgOverlay>
                 </Card>
               </Col>
-              <Col>
-                <Card className="bg-dark text-white">
-                  <Card.Img
-                    src={ipa}
-                    alt="Card image"
-                  />
-                  <Card.ImgOverlay id="mouse_over">
-                  <Card.Title><a href="https://sdesire.github.io/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white">IPA's for API's</a> <a href="https://github.com/sdesire/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
-                  <Card.Text>Fullstack</Card.Text>
-                  </Card.ImgOverlay>
-                </Card>
-              </Col>
             </Row>
             <Row>
               <Col>
@@ -83,15 +71,15 @@ export default function Portfolio() {
               </Col>
             </Row>
             <Row>
-              <Col>
+            <Col>
                 <Card className="bg-dark text-white">
                   <Card.Img
-                    src={runbuddy}
+                    src={ipa}
                     alt="Card image"
                   />
                   <Card.ImgOverlay id="mouse_over">
-                  <Card.Title><a href="https://bradleytevans.github.io/run-buddy/" target="_blank" rel="noreferrer" className="text-white">Run-buddy</a> <a href="https://github.com/Bradleytevans/run-buddy" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
-                  <Card.Text>HTML CSS</Card.Text>
+                  <Card.Title><a href="https://sdesire.github.io/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white">IPA's for API's</a> <a href="https://github.com/sdesire/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
+                  <Card.Text>Fullstack</Card.Text>
                   </Card.ImgOverlay>
                 </Card>
               </Col>
