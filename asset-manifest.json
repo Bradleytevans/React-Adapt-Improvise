@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Adapt-Improvise/static/css/main.ccaa1dab.css",
-    "main.js": "/React-Adapt-Improvise/static/js/main.9bd595ec.js",
+    "main.js": "/React-Adapt-Improvise/static/js/main.4cdad1ee.js",
     "static/js/787.a5edcd29.chunk.js": "/React-Adapt-Improvise/static/js/787.a5edcd29.chunk.js",
     "static/media/APIs-For-IPAs.png": "/React-Adapt-Improvise/static/media/APIs-For-IPAs.4d8cc01a3ec9d0454fb5.png",
     "static/media/landingBG.jpg": "/React-Adapt-Improvise/static/media/landingBG.6ef6db913df93a631506.jpg",
@@ -14,11 +14,11 @@
     "static/media/Bradleytevans.pdf": "/React-Adapt-Improvise/static/media/Bradleytevans.849a3e7705a930e12a7b.pdf",
     "index.html": "/React-Adapt-Improvise/index.html",
     "main.ccaa1dab.css.map": "/React-Adapt-Improvise/static/css/main.ccaa1dab.css.map",
-    "main.9bd595ec.js.map": "/React-Adapt-Improvise/static/js/main.9bd595ec.js.map",
+    "main.4cdad1ee.js.map": "/React-Adapt-Improvise/static/js/main.4cdad1ee.js.map",
     "787.a5edcd29.chunk.js.map": "/React-Adapt-Improvise/static/js/787.a5edcd29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccaa1dab.css",
-    "static/js/main.9bd595ec.js"
+    "static/js/main.4cdad1ee.js"
   ]
 }
