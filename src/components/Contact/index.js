@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Card, Container } from 'react-bootstrap';
-import ParticlesBg from 'particles-bg';
 import { validateEmail } from '../../utils/helpers';
 
 export default function ContactForm() {
@@ -38,14 +37,8 @@ export default function ContactForm() {
   };
 
   return (
-    <Container>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-
-      <h1 data-testid="h1tag" className='text-white'>Contact me</h1>
+    <Container className = "contactMe">
+      <h1 data-testid="h1tag" className='text-white'>Leave me a message or question!</h1>
       <Container className='contact'>
       <form id="contact-form" onSubmit={handleSubmit}>
         <Card className="name bg-dark text-white">
@@ -68,7 +61,6 @@ export default function ContactForm() {
         <button data-testid="button" type="submit" className='bg-dark text-white'>Submit</button>
       </form>
       </Container>
-      <ParticlesBg type="cobweb" color="#00FF00" num={30} bg={true} />
     </Container>
   );
 }

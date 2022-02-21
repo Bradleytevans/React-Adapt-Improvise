@@ -6,9 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-  height: 100%;
-  white-space: nowrap;
-
+  height: 110%;
 }
 
 code {
@@ -24,8 +22,6 @@ code {
   text-align: center;
   margin: 0px auto;
   height: 100%;
-  white-space: nowrap;
-
 }
 
 .navbar-brand {
@@ -42,23 +38,6 @@ code {
 
 a { 
   text-decoration: none;
-}
-
-/* .about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  margin: 0 auto;
-}
-.image {
-  flex-basis: 40%
-} */
-.text {
-  font-size: 20px;
-  text-align: center;
-  width: 40%;
-  margin: 0px auto;
 }
 
 #mouse_over {
@@ -83,6 +62,39 @@ ul {
  }
  html {
    height: 100%;
-  white-space: nowrap;
-
  }
+
+ .aboutText {
+  overflow-wrap: break-word;
+  overflow: hidden;
+  display: flex;
+  margin-block-start: inherit; 
+  margin-block-end: inherit; 
+  margin-inline-start: inherit;
+  margin-inline-end: inherit;
+ }
+
+ button.bg-dark {
+   box-shadow: 5px 5px 5px white;
+ }
+
+.aboutMe {
+   margin: 0px auto;
+   background-color: #181818;
+   color: white;
+   margin-bottom: 10em;
+   margin-top: 2em;
+ }
+ .projCard {
+   display: flex;
+   justify-content: center;
+   margin: 1em 0em;
+ }
+
+ .contactMe {
+   margin-top: 1em;
+ }
+.navi {
+  box-shadow: 2px 2px 2px white;
+  
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import ParticlesBg from "particles-bg";
 import { TiHtml5 } from "react-icons/ti";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -17,18 +16,17 @@ import { SiMongodb } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { AiOutlineApi } from "react-icons/ai";
 import { SiGraphql } from "react-icons/si";
-import resume from "../../resumepdf/Bradleytevans.pdf";
+import resume from "../../resumepdf/BradleyEvans.pdf";
 
 export default function Resume() {
   return (
     <Container>
       <section>
-        <h1 id="aboutMe">Resume</h1>
+        <h1 id="aboutMe"></h1>
         <div className="my-2 text-white">
-          <h1>Resume</h1>
           <br></br>
           <button className="bg-dark">
-          <a href={resume} download className="text-white h3">
+          <a href={resume} download className="text-white h3 bootn">
             Download Resume
           </a>
         </button>
@@ -88,7 +86,11 @@ export default function Resume() {
         </div>
        
       </section>
-      <ParticlesBg type="cobweb" color="#FFA500" num={30} bg={true} />
+<br></br>
+<br></br>
+<br></br>
+
+
     </Container>
   );
 }
