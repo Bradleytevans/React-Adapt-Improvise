@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Adapt-Improvise/static/css/main.f7ba71bc.css",
-    "main.js": "/React-Adapt-Improvise/static/js/main.266561f1.js",
+    "main.css": "/React-Adapt-Improvise/static/css/main.f50cef9d.css",
+    "main.js": "/React-Adapt-Improvise/static/js/main.d591acde.js",
     "static/js/787.a5edcd29.chunk.js": "/React-Adapt-Improvise/static/js/787.a5edcd29.chunk.js",
     "static/media/APIs-For-IPAs.png": "/React-Adapt-Improvise/static/media/APIs-For-IPAs.4d8cc01a3ec9d0454fb5.png",
     "static/media/landingBG.jpg": "/React-Adapt-Improvise/static/media/landingBG.6ef6db913df93a631506.jpg",
@@ -12,12 +12,12 @@
     "static/media/shreddit.png": "/React-Adapt-Improvise/static/media/shreddit.e31fa67164c9cab0bdcf.png",
     "static/media/BradleyEvans.pdf": "/React-Adapt-Improvise/static/media/BradleyEvans.278fc56ea0f46fc4c2c0.pdf",
     "index.html": "/React-Adapt-Improvise/index.html",
-    "main.f7ba71bc.css.map": "/React-Adapt-Improvise/static/css/main.f7ba71bc.css.map",
-    "main.266561f1.js.map": "/React-Adapt-Improvise/static/js/main.266561f1.js.map",
+    "main.f50cef9d.css.map": "/React-Adapt-Improvise/static/css/main.f50cef9d.css.map",
+    "main.d591acde.js.map": "/React-Adapt-Improvise/static/js/main.d591acde.js.map",
     "787.a5edcd29.chunk.js.map": "/React-Adapt-Improvise/static/js/787.a5edcd29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7ba71bc.css",
-    "static/js/main.266561f1.js"
+    "static/css/main.f50cef9d.css",
+    "static/js/main.d591acde.js"
   ]
 }
