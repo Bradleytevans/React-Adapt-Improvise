@@ -98,3 +98,10 @@ ul {
   box-shadow: 2px 2px 2px white;
   
 }
+
+div.card-title.h5 {
+  font-size: larger;
+  border: 2px white solid;
+  vertical-align: middle;
+  border-radius: 4px;
+}

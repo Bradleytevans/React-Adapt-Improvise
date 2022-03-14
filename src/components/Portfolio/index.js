@@ -7,6 +7,7 @@ import ipa from "../../images/APIs-For-IPAs.png";
 import notes from "../../images/notes.png";
 import code from "../../images/code-quiz.png";
 import { VscGithub } from "react-icons/vsc";
+import { CgWebsite } from "react-icons/cg"
 
 export default function Portfolio() {
   return (
@@ -24,10 +25,10 @@ export default function Portfolio() {
                     src={cultural}
                     alt="Card image"
                   />
-                  <Card.ImgOverlay id="mouse_over">
-                    <Card.Title><a href="https://cultural-eats.herokuapp.com" target="_blank" rel="noreferrer" className="text-white">Cultural Eats</a> </Card.Title>
-                    <Card.Title><a href="https://github.com/JulioRios15/Cultural-eats" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
-                    <Card.Text>Fullstack</Card.Text>
+                  <Card.ImgOverlay>
+                    <Card.Title>Cultural-Eats </Card.Title>
+                    <Card.Title><a href="https://cultural-eats.herokuapp.com" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Website </a></Card.Title>
+                    <Card.Title><a href="https://github.com/JulioRios15/Cultural-eats" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={30} /> Github</a></Card.Title>
                   </Card.ImgOverlay>
                 </Card>
               </Col>
@@ -37,38 +38,10 @@ export default function Portfolio() {
                     src={shreddit}
                     alt="Card image"
                   />
-                  <Card.ImgOverlay id="mouse_over">
-                    <Card.Title><a href="https://app-shreddit.herokuapp.com" target="_blank" rel="noreferrer" className="text-white">Shreddit</a> </Card.Title>
-                    <Card.Title><a href="https://github.com/JulioRios15/Full-Stack-Project" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
-                    <Card.Text>Fullstack</Card.Text>
-                  </Card.ImgOverlay>
-                </Card>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="projCard">
-                <Card className="bg-dark text-white">
-                  <Card.Img
-                    src={horiseon}
-                    alt="Card image"
-                  />
-                  <Card.ImgOverlay id="mouse_over">
-                  <Card.Title><a href="https://bradleytevans.github.io/challenge1/" target="_blank" rel="noreferrer" className="text-white">Horiseon</a> </Card.Title>
-                  <Card.Title><a href="https://github.com/Bradleytevans/challenge1" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
-                  <Card.Text>HTML CSS</Card.Text>
-                  </Card.ImgOverlay>
-                </Card>
-              </Col>
-              <Col className="projCard">
-                <Card className="bg-dark text-white">
-                  <Card.Img
-                    src={notes}
-                    alt="Card image"
-                  />
-                  <Card.ImgOverlay id="mouse_over">
-                  <Card.Title><a href="https://notes-on-notes-heroku.herokuapp.com/" target="_blank" rel="noreferrer" className="text-white">Note-Taker</a> </Card.Title>
-                  <Card.Title><a href="https://github.com/Bradleytevans/notes-on-notes" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
-                  <Card.Text>Express Node</Card.Text>
+                  <Card.ImgOverlay>
+                    <Card.Title>Shreddit</Card.Title>
+                    <Card.Title><a href="https://app-shreddit.herokuapp.com" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Shreddit </a> </Card.Title>
+                    <Card.Title><a href="https://github.com/JulioRios15/Full-Stack-Project" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Github</a></Card.Title>
                   </Card.ImgOverlay>
                 </Card>
               </Col>
@@ -80,10 +53,39 @@ export default function Portfolio() {
                     src={ipa}
                     alt="Card image"
                   />
-                  <Card.ImgOverlay id="mouse_over">
-                  <Card.Title><a href="https://sdesire.github.io/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white">IPA's for API's</a> </Card.Title>
-                  <Card.Title><a href="https://github.com/sdesire/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
-                  <Card.Text>Fullstack</Card.Text>
+                  <Card.ImgOverlay>
+                  <Card.Title>IPA's for API's</Card.Title>
+                  <Card.Title><a href="https://sdesire.github.io/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> IPA's for API's </a> </Card.Title>
+                  <Card.Title><a href="https://github.com/sdesire/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Github</a></Card.Title>
+                  </Card.ImgOverlay>
+                </Card>
+              </Col>
+              
+              <Col className="projCard">
+                <Card className="bg-dark text-white">
+                  <Card.Img
+                    src={notes}
+                    alt="Card image"
+                  />
+                  <Card.ImgOverlay>
+                  <Card.Title>Note-Taker</Card.Title>
+                  <Card.Title><a href="https://notes-on-notes-heroku.herokuapp.com/" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Note-Taker </a> </Card.Title>
+                  <Card.Title><a href="https://github.com/Bradleytevans/notes-on-notes" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Github</a></Card.Title>
+                  </Card.ImgOverlay>
+                </Card>
+              </Col>
+            </Row>
+            <Row>
+            <Col className="projCard">
+                <Card className="bg-dark text-white">
+                  <Card.Img
+                    src={horiseon}
+                    alt="Card image"
+                  />
+                  <Card.ImgOverlay>
+                  <Card.Title>Horiseon</Card.Title>
+                  <Card.Title><a href="https://bradleytevans.github.io/challenge1/" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Horiseon </a> </Card.Title>
+                  <Card.Title><a href="https://github.com/Bradleytevans/challenge1" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Github</a></Card.Title>
                   </Card.ImgOverlay>
                 </Card>
               </Col>
@@ -93,10 +95,10 @@ export default function Portfolio() {
                     src={code}
                     alt="Card image"
                   />
-                  <Card.ImgOverlay id="mouse_over">
-                  <Card.Title><a href="https://bradleytevans.github.io/Code-Quiz/" target="_blank" rel="noreferrer" className="text-white">Code-Quiz</a> </Card.Title>
-                  <Card.Title><a href="https://github.com/Bradleytevans/Code-Quiz" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /></a></Card.Title>
-                  <Card.Text>HTML CSS JS</Card.Text>
+                  <Card.ImgOverlay>
+                  <Card.Title>Code-Quiz</Card.Title>
+                  <Card.Title><a href="https://bradleytevans.github.io/Code-Quiz/" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Code-Quiz </a> </Card.Title>
+                  <Card.Title><a href="https://github.com/Bradleytevans/Code-Quiz" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Github</a></Card.Title>
                   </Card.ImgOverlay>
                 </Card>
               </Col>
